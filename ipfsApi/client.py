@@ -50,6 +50,7 @@ class Client(object):
         self._block_stat         = ArgCommand('/block/stat')
         self._block_get          = ArgCommand('/block/get')
         self._block_put          = FileCommand('/block/put')
+        self._object_new         = ArgCommand('/object/new')
         self._object_data        = ArgCommand('/object/data')
         self._object_links       = ArgCommand('/object/links')
         self._object_get         = ArgCommand('/object/get')
